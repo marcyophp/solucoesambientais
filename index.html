@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSolutions - Soluções Ambientais para um Futuro Sustentável</title>
+    <meta name="description" content="Transforme sua empresa com nossas soluções ambientais inovadoras. Reduza custos, melhore sua imagem e contribua para um planeta mais sustentável.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <i class="fas fa-leaf"></i>
+                <span>EcoSolutions</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Transforme sua empresa com <span class="highlight">soluções ambientais</span> inovadoras</h1>
+                <p>Reduza custos operacionais, melhore sua imagem corporativa e contribua para um planeta mais sustentável com nossas tecnologias verdes de última geração.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contato')">
+                        <i class="fas fa-rocket"></i>
+                        Começar Agora
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('solucoes')">
+                        <i class="fas fa-play"></i>
+                        Ver Soluções
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Empresas Atendidas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">40%</span>
+                        <span class="stat-label">Redução de Custos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Satisfação dos Clientes</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Energia Solar</h3>
+                    <p>Economize até 80% na conta de energia</p>
+                </div>
+                <div class="hero-card">
+                    <i class="fas fa-recycle"></i>
+                    <h3>Gestão de Resíduos</h3>
+                    <p>Transforme lixo em receita</p>
+                </div>
+                <div class="hero-card">
+                    <i class="fas fa-water"></i>
+                    <h3>Tratamento de Água</h3>
+                    <p>Sistema de reutilização inteligente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solucoes" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossas Soluções Ambientais</h2>
+                <p>Oferecemos um portfólio completo de tecnologias sustentáveis para sua empresa</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>Energia Renovável</h3>
+                    <p>Sistemas de energia solar e eólica personalizados para reduzir custos e pegada de carbono.</p>
+                    <ul>
+                        <li>Instalação completa</li>
+                        <li>Manutenção especializada</li>
+                        <li>Monitoramento 24/7</li>
+                        <li>ROI garantido em 3 anos</li>
+                    </ul>
+                    <div class="solution-price">
+                        <span class="price">A partir de R$ 15.000</span>
+                        <span class="period">/mês</span>
+                    </div>
+                </div>
+                <div class="solution-card featured">
+                    <div class="badge">Mais Popular</div>
+                    <div class="solution-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Gestão de Resíduos</h3>
+                    <p>Transforme resíduos em recursos valiosos com nossa tecnologia de reciclagem avançada.</p>
+                    <ul>
+                        <li>Coleta inteligente</li>
+                        <li>Processamento automatizado</li>
+                        <li>Certificação ambiental</li>
+                        <li>Receita adicional</li>
+                    </ul>
+                    <div class="solution-price">
+                        <span class="price">A partir de R$ 8.000</span>
+                        <span class="period">/mês</span>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Tratamento de Água</h3>
+                    <p>Sistemas de purificação e reutilização de água para máxima eficiência hídrica.</p>
+                    <ul>
+                        <li>Purificação avançada</li>
+                        <li>Reutilização inteligente</li>
+                        <li>Monitoramento contínuo</li>
+                        <li>Conformidade total</li>
+                    </ul>
+                    <div class="solution-price">
+                        <span class="price">A partir de R$ 12.000</span>
+                        <span class="period">/mês</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="benefits-text">
+                    <h2>Por que escolher a EcoSolutions?</h2>
+                    <p>Nossa missão é transformar empresas em líderes de sustentabilidade, oferecendo soluções que geram valor econômico e ambiental.</p>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>ROI Comprovado</h4>
+                                <p>Retorno do investimento em até 36 meses com economia garantida</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Certificações Ambientais</h4>
+                                <p>Obtenha selos de sustentabilidade que valorizam sua marca</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-headset"></i>
+                            <div>
+                                <h4>Suporte 24/7</h4>
+                                <p>Equipe especializada disponível para garantir o funcionamento perfeito</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Garantia Total</h4>
+                                <p>5 anos de garantia em todos os equipamentos e instalações</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-image">
+                    <div class="benefits-chart">
+                        <div class="chart-item">
+                            <div class="chart-bar" style="height: 80%"></div>
+                            <span>Economia Energia</span>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-bar" style="height: 65%"></div>
+                            <span>Redução Resíduos</span>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-bar" style="height: 90%"></div>
+                            <span>Eficiência Hídrica</span>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-bar" style="height: 75%"></div>
+                            <span>Satisfação Cliente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que nossos clientes dizem</h2>
+                <p>Empresas que já transformaram seus negócios com nossas soluções</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"A EcoSolutions transformou nossa fábrica. Reduzimos 60% dos custos com energia e ainda ganhamos o selo de empresa sustentável. ROI em apenas 18 meses!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Maria Silva</h4>
+                            <span>CEO, Indústria Verde Ltda</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"O sistema de gestão de resíduos da EcoSolutions nos gerou R$ 50.000 mensais em receita adicional. Além disso, nossa imagem corporativa melhorou significativamente."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>João Santos</h4>
+                            <span>Diretor, TechCorp Brasil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Suporte excepcional e tecnologia de ponta. Nossa empresa agora é referência em sustentabilidade no setor. Recomendo sem hesitação!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Ana Costa</h4>
+                            <span>Gerente, EcoManufacturing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contato" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>Pronto para transformar sua empresa?</h2>
+                    <p>Agende uma consultoria gratuita e descubra como podemos reduzir seus custos e melhorar sua sustentabilidade.</p>
+                    <div class="cta-benefits">
+                        <div class="cta-benefit">
+                            <i class="fas fa-check"></i>
+                            <span>Consultoria gratuita</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <i class="fas fa-check"></i>
+                            <span>Análise personalizada</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <i class="fas fa-check"></i>
+                            <span>Proposta sem compromisso</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-form">
+                    <form id="contactForm">
+                        <h3>Solicite sua consultoria gratuita</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="WhatsApp com DDD" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" placeholder="Nome da empresa" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="solution" name="solution" required>
+                                <option value="">Qual solução te interessa?</option>
+                                <option value="energia">Energia Renovável</option>
+                                <option value="residuos">Gestão de Resíduos</option>
+                                <option value="agua">Tratamento de Água</option>
+                                <option value="todas">Todas as soluções</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Solicitar Consultoria Gratuita
+                        </button>
+                        <p class="form-disclaimer">
+                            <i class="fas fa-lock"></i>
+                            Seus dados estão seguros e não serão compartilhados
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>EcoSolutions</span>
+                    </div>
+                    <p>Transformando empresas em líderes de sustentabilidade através de tecnologias ambientais inovadoras.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Soluções</h4>
+                        <ul>
+                            <li><a href="#solucoes">Energia Renovável</a></li>
+                            <li><a href="#solucoes">Gestão de Resíduos</a></li>
+                            <li><a href="#solucoes">Tratamento de Água</a></li>
+                            <li><a href="#solucoes">Consultoria Ambiental</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#sobre">Sobre Nós</a></li>
+                            <li><a href="#equipe">Nossa Equipe</a></li>
+                            <li><a href="#carreiras">Carreiras</a></li>
+                            <li><a href="#imprensa">Imprensa</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Suporte</h4>
+                        <ul>
+                            <li><a href="#contato">Contato</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#suporte">Suporte Técnico</a></li>
+                            <li><a href="#manuais">Manuais</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoSolutions. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#privacidade">Política de Privacidade</a>
+                    <a href="#termos">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
